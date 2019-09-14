@@ -1,4 +1,4 @@
-dateModified: 1568487184
+dateModified: 1568497987
 email:
   fromEmail: admin@admin.com
   fromName: Frankenstein
@@ -75,7 +75,7 @@ sites:
     sortOrder: 1
 system:
   edition: pro
-  name: Frankenstein
+  name: 'Frank''s Website'
   live: true
   schemaVersion: 3.3.3
   timeZone: America/Los_Angeles
