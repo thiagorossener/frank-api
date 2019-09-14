@@ -3,7 +3,7 @@
     "ext-imagick": "*",
     "ext-mbstring": "*",
     "craftcms/cms": "^3.0.0",
-    "jungleminds/nethooks": "^1.1",
+    "craftcms/webhooks": "^2.2",
     "vlucas/phpdotenv": "^3.4.0"
   },
   "autoload": {

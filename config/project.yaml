@@ -1,4 +1,4 @@
-dateModified: 1568486578
+dateModified: 1568487184
 email:
   fromEmail: admin@admin.com
   fromName: Frankenstein
@@ -25,15 +25,10 @@ fields:
     contentColumnType: text
     fieldGroup: 5155cba7-2611-4753-8886-fec5320289f4
 plugins:
-  nethooks:
+  webhooks:
     edition: standard
     enabled: true
-    schemaVersion: 1.0.2
-    settings:
-      buildHooks:
-        -
-          name: default
-          url: 'https://api.netlify.com/build_hooks/5d7d34a430bb9531efea05e1'
+    schemaVersion: 2.2.0
 sections:
   e8347b23-be47-4b49-9c4f-39c7e912c512:
     name: Movie

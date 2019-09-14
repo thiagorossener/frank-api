@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f71e7171896da44634dfca6f2f5306fb",
+    "content-hash": "30de3496b2738ddf580fd4c0288b49cd",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -542,6 +542,54 @@
             "time": "2019-01-31T19:59:15+00:00"
         },
         {
+            "name": "craftcms/webhooks",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/webhooks.git",
+                "reference": "54ac38bf43f0938fe8429af67365e3fcb930a34e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/webhooks/zipball/54ac38bf43f0938fe8429af67365e3fcb930a34e",
+                "reference": "54ac38bf43f0938fe8429af67365e3fcb930a34e",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.1.19"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Webhooks",
+                "handle": "webhooks",
+                "documentationUrl": "https://github.com/craftcms/webhooks/blob/master/README.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\webhooks\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Post webhooks when events are triggered in Craft CMS.",
+            "keywords": [
+                "cms",
+                "craftcms",
+                "html",
+                "webhooks",
+                "yii2"
+            ],
+            "time": "2019-07-29T13:43:36+00:00"
+        },
+        {
             "name": "creocoder/yii2-nested-sets",
             "version": "0.9.0",
             "source": {
@@ -1007,57 +1055,6 @@
                 "url"
             ],
             "time": "2019-07-01T23:21:34+00:00"
-        },
-        {
-            "name": "jungleminds/nethooks",
-            "version": "1.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/JungleMinds/Craft_NetHooks.git",
-                "reference": "6c0a02a0afc97d6b83473fbe8fdfd7cff0f09928"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/JungleMinds/Craft_NetHooks/zipball/6c0a02a0afc97d6b83473fbe8fdfd7cff0f09928",
-                "reference": "6c0a02a0afc97d6b83473fbe8fdfd7cff0f09928",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^3.0.0"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "nethooks",
-                "handle": "nethooks",
-                "hasCpSettings": true,
-                "hasCpSection": false,
-                "changelogUrl": "https://raw.githubusercontent.com/JungleMinds/Craft_NetHooks/master/CHANGELOG.md",
-                "class": "jungleminds\\nethooks\\Nethooks"
-            },
-            "autoload": {
-                "psr-4": {
-                    "jungleminds\\nethooks\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jungle Minds",
-                    "homepage": "https://jungleminds.com"
-                }
-            ],
-            "description": "Add Deploy hooks for Netlify",
-            "keywords": [
-                "Craft",
-                "cms",
-                "craft-plugin",
-                "craftcms",
-                "nethooks"
-            ],
-            "time": "2018-09-18T08:33:47+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
