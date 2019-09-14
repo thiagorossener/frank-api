@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ddc969ede4d4888d3da95f39f9706a8",
+    "content-hash": "f71e7171896da44634dfca6f2f5306fb",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -1007,6 +1007,57 @@
                 "url"
             ],
             "time": "2019-07-01T23:21:34+00:00"
+        },
+        {
+            "name": "jungleminds/nethooks",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JungleMinds/Craft_NetHooks.git",
+                "reference": "6c0a02a0afc97d6b83473fbe8fdfd7cff0f09928"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JungleMinds/Craft_NetHooks/zipball/6c0a02a0afc97d6b83473fbe8fdfd7cff0f09928",
+                "reference": "6c0a02a0afc97d6b83473fbe8fdfd7cff0f09928",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "nethooks",
+                "handle": "nethooks",
+                "hasCpSettings": true,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/JungleMinds/Craft_NetHooks/master/CHANGELOG.md",
+                "class": "jungleminds\\nethooks\\Nethooks"
+            },
+            "autoload": {
+                "psr-4": {
+                    "jungleminds\\nethooks\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jungle Minds",
+                    "homepage": "https://jungleminds.com"
+                }
+            ],
+            "description": "Add Deploy hooks for Netlify",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "nethooks"
+            ],
+            "time": "2018-09-18T08:33:47+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -3998,8 +4049,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "ext-mbstring": "*",
-        "ext-imagick": "*"
+        "ext-imagick": "*",
+        "ext-mbstring": "*"
     },
     "platform-dev": [],
     "platform-overrides": {
