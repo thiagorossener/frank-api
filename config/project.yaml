@@ -1,0 +1,82 @@
+dateModified: 1568411681
+email:
+  fromEmail: admin@admin.com
+  fromName: Frankenstein
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  5155cba7-2611-4753-8886-fec5320289f4:
+    name: Common
+fields:
+  9eb0f2b7-f913-4e28-8e41-a0b4bca0a076:
+    name: Description
+    handle: description
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: ''
+      multiline: ''
+      initialRows: '4'
+      charLimit: ''
+      columnType: text
+    contentColumnType: text
+    fieldGroup: 5155cba7-2611-4753-8886-fec5320289f4
+sections:
+  e8347b23-be47-4b49-9c4f-39c7e912c512:
+    name: Movie
+    handle: movie
+    type: channel
+    enableVersioning: true
+    propagationMethod: all
+    siteSettings:
+      9d7063ec-051d-4202-8b92-7b84a6d2cdbc:
+        enabledByDefault: true
+        hasUrls: false
+        uriFormat: null
+        template: null
+    entryTypes:
+      ee7f8c85-3b19-48c2-ba65-49db9539ab2d:
+        name: Post
+        handle: post
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: ''
+        sortOrder: 1
+        fieldLayouts:
+          0239ec1a-2d63-46ba-a715-4ab61c114bcf:
+            tabs:
+              -
+                name: Common
+                sortOrder: 1
+                fields:
+                  9eb0f2b7-f913-4e28-8e41-a0b4bca0a076:
+                    required: false
+                    sortOrder: 1
+siteGroups:
+  0a96515e-a00b-43bb-a48e-051ace1caf3f:
+    name: Frankenstein
+sites:
+  9d7063ec-051d-4202-8b92-7b84a6d2cdbc:
+    baseUrl: $DEFAULT_SITE_URL
+    handle: default
+    hasUrls: true
+    language: en-US
+    name: Frankenstein
+    primary: true
+    siteGroup: 0a96515e-a00b-43bb-a48e-051ace1caf3f
+    sortOrder: 1
+system:
+  edition: pro
+  name: Frankenstein
+  live: true
+  schemaVersion: 3.3.3
+  timeZone: America/Los_Angeles
+users:
+  requireEmailVerification: true
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoVolumeUid: null
+  photoSubpath: ''
